@@ -80,8 +80,8 @@ const Products = () => {
               <td className="border px-4 py-2 bg-white">{product._id}</td>
               <td className="border px-4 py-2 bg-white">{product.name}</td>
               <td className="border px-4 py-2 bg-white">
-                <img
-                  src={product.image}
+              <img
+                  src={`images/${product.image}`} // Update this line
                   alt={product.name}
                   className="h-16 w-16 object-cover rounded"
                 />

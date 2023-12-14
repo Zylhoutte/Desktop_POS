@@ -4,6 +4,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import Layout from '../components/Layout'
 import ProductForm from '../components/productForm'
 
+
+
 function Add() {
   const navigate = useNavigate()
   const dispatch = useDispatch()
@@ -31,6 +33,7 @@ function Add() {
     <>
      <Layout>
 <ProductForm/>
+
     </Layout>
 
 
